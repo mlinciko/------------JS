@@ -1,0 +1,36 @@
+body{
+  font-family:sans-serif;
+}
+.container{
+  width: 600px;
+  margin:100px auto 0 auto;
+}
+.title{
+  text-align: center;
+  padding-bottom:10px;
+}
+input[type="text"]{
+  display:block;
+  max-width: 152px;
+  height: 30px;
+  margin:0 auto;
+}
+.culc{
+  display:grid;
+  max-width: 160px;
+  grid-template:40px 40px 40px 40px 40px/ 40px 40px 40px 40px;
+  margin:auto;
+}
+.culc button{
+  background-color: #ddf5ff;
+  border:1px solid #5ac8d9;
+  cursor:pointer;
+}
+.culc button:active{
+  background-color: #5ac8d9;
+}
+
+
+#ziro{
+  grid-column:1/4;
+}
